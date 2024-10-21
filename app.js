@@ -1,6 +1,6 @@
 const gameBoard = document.querySelector("#gameboard");
 const infoDisplay = document.querySelector("#info");
-const startCells = ["", "", "", "", "", "", "", "", ""];
+const startCells = Array(9).fill(null);
 let go = "circle";
 
 infoDisplay.textContent = "Circle goes first";
